@@ -979,6 +979,7 @@ form {
  gap: 16px;
  width: 1012px;
  height: 56px;
+ margin-right: 16px;
 }
 
 #subname {
@@ -997,6 +998,7 @@ form {
   font-family: 'Open Sans', sans-serif;
   width: 240px;
   height: 56px;
+  margin-right: 10px;
 
 }
 
@@ -1016,6 +1018,8 @@ form {
   line-height: 24px;
   color: #EEEEEE;
   font-family: 'Open Sans', sans-serif;
+  margin-right: 10px;
+
 
 }
 
