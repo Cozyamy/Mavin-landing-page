@@ -1,5 +1,7 @@
 @import url('http://fonts.cdnfonts.com/css/open-sans');
 @import url('http://fonts.cdnfonts.com/css/merriweather');
+@import url('http://fonts.cdnfonts.com/css/inter');
+
 
 * {
   margin: 0;
@@ -773,4 +775,224 @@ main {
 #nowimg {
   margin-left: 1100px;
   margin-top: -60px;
+}
+
+.artist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 172px;
+}
+
+.artisttxt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  width: 505px;
+  height: 112px;
+}
+
+.artisttxt > h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 64px;
+  text-align: center;
+  color: #FCFCFC;
+}
+
+.artisttxt > p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  font-style: normal;
+  color: #EEEEEE;
+
+}
+
+.artistimg {
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 1240px;
+  height: 440px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.thedot {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  gap: 8px;
+  width: 200px;
+  height: 32px;
+  margin-top: 80px;
+}
+
+.dot {
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #FCFCFC;
+  border-radius: 50%;
+}
+
+.dote {
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #E1B959;
+  background-color: #E1B959;
+  border-radius: 50%;
+}
+
+#dotimg {
+  margin-top: 56px;
+}
+
+.suscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  gap: 80px;
+  width: 1012px;
+  height: 352px;
+  margin-top: 54px;
+  margin-left: 100px;
+  margin-bottom: 160px;
+
+}
+
+.suscribetxt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  width: 960px;
+  height: 216px;
+
+}
+
+.suscribetxt > h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 64px;
+  text-align: center;
+  color: #FCFCFC;
+  font-family: 'Merriweather', sans-serif;
+}
+
+.suscribetxt > p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #FCFCFC;
+  font-family: 'Open Sans', sans-serif;
+}
+
+form {
+ display: flex;
+ flex-direction: row;
+ align-items: flex-start;
+ padding: 0px;
+ gap: 16px;
+ width: 1012px;
+ height: 56px;
+}
+
+#subname {
+  box-sizing: border-box;
+  padding: 8px;
+  gap: 8px;
+  align-items: center;
+  border: 0.5px solid #DDDDDD;
+  border-radius: 4px;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #EEEEEE;
+  font-family: 'Open Sans', sans-serif;
+  width: 240px;
+  height: 56px;
+
+}
+
+#subemail {
+  width: 500px;
+  height: 56px;
+  box-sizing: border-box;
+  padding: 8px;
+  gap: 8px;
+  align-items: center;
+  border: 0.5px solid #DDDDDD;
+  border-radius: 4px;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #EEEEEE;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+#subsub {
+  width: 240px;
+  height: 56px;
+  box-sizing: border-box;
+  padding: 12px 24px;
+  gap: 8px;
+  align-items: center;
+  border: 1px solid #E1B959;
+  border-radius: 4px;
+  background-color: #E1B959;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #212121;
+  font-family: 'Open Sans', sans-serif;
+  box-shadow: 0px 4px 8px rgba(14, 31, 53, 0.12);
+
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: 40px;
+  background-color: #E1B959;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 40px;
+}
+
+.footertxt {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #212121;
+  font-family: 'Inter', sans-serif;
+}
+
+.footera > a{
+  padding: 10px;
 }
