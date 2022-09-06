@@ -23,10 +23,18 @@ body {
   background-color: rgba(59, 59, 59, 1.0);
 }
 
-header {
+/*header {
   background: url("./images/Rectangle 9218.png");
   background-repeat: no-repeat;
   background-size: auto;
+}*/
+
+.HeadSection {
+  background: url("./images/Rectangle 9218.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ 
 }
 
 .navbar-brand {
@@ -160,7 +168,7 @@ ul {
 
 #notes {
   margin-left: 1000px;
-  margin-top: 98px;
+  margin-bottom: 52px;
 }
 
 .rectangle {
@@ -175,7 +183,7 @@ ul {
   width: 828px;
   height: 192px;
   margin-left: 250px;
-  margin-top: -30px;
+  margin-top: -80px;
 }
 
 .one {
@@ -789,6 +797,7 @@ main {
 .artisttxt {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   padding: 0px;
   gap: 16px;
@@ -803,6 +812,10 @@ main {
   line-height: 64px;
   text-align: center;
   color: #FCFCFC;
+  font-family: 'Merriweather', sans-serif;
+  display: flex;
+  flex-direction: row;
+  
 }
 
 .artisttxt > p {
@@ -811,6 +824,8 @@ main {
   line-height: 32px;
   font-style: normal;
   color: #EEEEEE;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -825,6 +840,57 @@ main {
   height: 440px;
   margin-left: 110px;
   margin-right: 110px;
+}
+
+#rema {
+  padding: 8px;
+  gap: 8px;
+  height: 48px;
+  width: 200px;
+  background-color: #E1B959;
+  border-radius: 0px 16px 0px 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333333;
+  margin-left: -231px;
+  margin-top: 5px;
+}
+
+#ayra {
+  padding: 8px;
+  gap: 8px;
+  height: 48px;
+  width: 200px;
+  background-color: #E1B959;
+  border-radius: 0px 16px 0px 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333333;
+  margin-left: -231px;
+  margin-top: 5px;
+}
+
+#johnny {
+  padding: 8px;
+  gap: 8px;
+  height: 48px;
+  width: 200px;
+  background-color: #E1B959;
+  border-radius: 0px 16px 0px 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333333;
+  margin-left: -231px;
+  margin-top: 5px;
 }
 
 .thedot {
