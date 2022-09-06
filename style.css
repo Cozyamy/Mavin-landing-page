@@ -783,6 +783,7 @@ main {
   justify-content: center;
   align-items: center;
   margin-top: 172px;
+
 }
 
 .artisttxt {
@@ -820,10 +821,10 @@ main {
   align-items: flex-start;
   padding: 0px;
   gap: 24px;
-  width: 1240px;
+  width: auto;
   height: 440px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 110px;
+  margin-right: 110px;
 }
 
 .thedot {
