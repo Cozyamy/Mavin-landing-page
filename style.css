@@ -20,14 +20,9 @@ a {
 }
 
 body {
-  background-color: rgba(59, 59, 59, 1.0);
+  background: linear-gradient(116.29deg, #333333 0%, rgba(33, 33, 33, 0.9)100.06%);
 }
 
-/*header {
-  background: url("./images/Rectangle 9218.png");
-  background-repeat: no-repeat;
-  background-size: auto;
-}*/
 
 .HeadSection {
   background: url("./images/Rectangle 9218.png");
@@ -88,7 +83,7 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  left: 300px;
+  
   
 
 }
@@ -226,6 +221,8 @@ ul {
 main {
   display: flex;
   flex-direction: column;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 
@@ -282,8 +279,8 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: ;
-  margin-top: -28rem;
-  padding-left: 2rem;
+  margin-top: -29.6rem;
+  padding-left: 1.4rem;
 
 }
 
@@ -298,8 +295,8 @@ main {
 }
 
 #unote {
-  margin-top: 256px;
-  margin-left: 15rem;
+  margin-top: 265px;
+  margin-left: 8.8rem;
 }
 
 .mid {
@@ -307,8 +304,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 48px;
-  padding: 0px;
+  padding-top: 80px;
   gap: 16px;
   height: 112px;
 }
@@ -337,8 +333,9 @@ main {
 }
 
 .middle {
-  margin-left: 100px;
-  margin-right: 100px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
 }
 
 .exactly {
@@ -346,6 +343,9 @@ main {
   flex-direction: row;
   align-items: center;
   padding: 0px;
+  gap: 95px;
+  width: 1240px;
+  height: 540px;
 
 }
 
@@ -355,7 +355,9 @@ main {
   align-items: flex-start;
   padding: 0px;
   gap: 16px;
-  margin-top: 146px;
+  margin-top: 66px;
+  width: 408px;
+  height: 408px;
 }
 
 .exactlyone > h2 {
@@ -376,21 +378,14 @@ main {
   font-weight: 600;
   font-style: normal;
   font-family: 'Open Sans', sans-serif;
-  width: 410px;
+  width: 408px;
   height: 336px;
-  margin: 0;
-}
-
-#ynote {
-  padding-right: 41px;
-  padding-left: 40px;
 }
 
 #Crayon {
-  padding-right: 80px;
   box-sizing: border-box;
   margin-top: 80px;
-  width: 100%;
+  width: 40%;
   height: auto;
 }
 
@@ -499,12 +494,13 @@ main {
   margin-top: 160px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   padding: 0px;
   gap: 80px;
   width: 920px;
   height: 1392px;
-  margin-left: 140px;
+  margin-left: 160px;
 }
 
 .Offer {
@@ -515,6 +511,7 @@ main {
   padding: 0px;
   gap: 16px;
   height: 112px;
+  width: 623px;
 }
 
 .Offer > h2 {
@@ -533,8 +530,7 @@ main {
   font-weight: 500;
   font-style: normal;
   font-family: 'Open Sans', sans-serif;
-  width: 559px;
-  height: 32px;
+  margin-left: -70px;
 }
 
 .actvities {
@@ -561,6 +557,8 @@ main {
 .brand > img {
   width: 400px;
   height: 320px;
+  filter: drop-shadow(0px 4px 8px rgba(14, 31, 53, 0.12));
+  border-radius: 8px;
 }
 
 .brand > h3 {
@@ -612,8 +610,8 @@ main {
 }
 
 .sync > img {
-  width: 400px;
-  height: 320px;
+  width: 100%;
+  height: auto;
 }
 
 .sync > h3 {
@@ -654,7 +652,7 @@ main {
 }
 
 #justimg {
-  margin-left: -1230px;
+  margin-left: -1110px;
   margin-top: -65px;
 }
 
@@ -686,8 +684,8 @@ main {
 }
 
 .performance > img {
-  width: 400px;
-  height: 320px;
+  width: 100%;
+  height: auto;
 }
 
 .performance > h3 {
@@ -781,7 +779,7 @@ main {
 }
 
 #nowimg {
-  margin-left: 1100px;
+  margin-left: 1000px;
   margin-top: -60px;
 }
 
@@ -791,6 +789,10 @@ main {
   justify-content: center;
   align-items: center;
   margin-top: 172px;
+  padding: 0px;
+  gap: 80px;
+  width: 1240px;
+  height: 744px;
 
 }
 
@@ -836,7 +838,7 @@ main {
   align-items: flex-start;
   padding: 0px;
   gap: 24px;
-  width: auto;
+  width: 1240px;
   height: 440px;
   margin-left: 110px;
   margin-right: 110px;
@@ -857,6 +859,17 @@ main {
   color: #333333;
   margin-left: -231px;
   margin-top: 5px;
+  border: 2px solid #E1B959;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.theonea {
+  width: 397px;
+  height: 440px;
+  filter: drop-shadow(0px 4px 8px rgba(14, 32, 53, 0.12));
 }
 
 #ayra {
@@ -874,9 +887,25 @@ main {
   color: #333333;
   margin-left: -231px;
   margin-top: 5px;
+  border: 2px solid #E1B959;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.theoneb {
+  width: 398px;
+  height: 440px;
+  filter: drop-shadow(0px 4px 8px rgba(14, 31, 53, 0.12));
 }
 
 #johnny {
+  border: 2px solid #E1B959;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   padding: 8px;
   gap: 8px;
   height: 48px;
@@ -891,6 +920,12 @@ main {
   color: #333333;
   margin-left: -231px;
   margin-top: 5px;
+}
+
+.theonec {
+  width: 397px;
+  height: 440px;
+  filter: drop-shadow(0px 4px 8px rgba(14, 31, 53, 0.12));
 }
 
 .thedot {
@@ -922,7 +957,8 @@ main {
 }
 
 #dotimg {
-  margin-top: 56px;
+  margin-top: 126px;
+  margin-left: 590px;
 }
 
 .suscribe {
@@ -1066,4 +1102,397 @@ footer {
 
 .footera > a{
   padding: 10px;
+}
+
+@media screen and (max-width: 1116px) {
+  .noteA {
+    margin-left: 1000px;
+    margin-top: 40px;
+  }
+
+  .firsttxt {
+    margin-top: -15px;
+  }
+
+  .firsttxt > p {
+    font-size: 23px;
+    padding-top: 15px;
+  }
+
+  #learn {
+    margin-left: 0.1rem;
+  }
+
+  .abutton > img {
+    margin-left: 0.2rem;
+  }
+  .abutton > button {
+    margin-left: 1rem;
+  }
+
+  .topl {
+    justify-content: space-around;
+  }
+
+  .rectangle {
+    margin-left: 150px;
+  }
+
+  #notes {
+    margin-left: 900px;
+  }
+
+  .middle {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  .exactly {
+    margin-right: 60px;
+  }
+
+  .exactlyone > h2 {
+  font-size: 28px;
+  line-height: 54px;
+  height: 54px;
+}
+
+.exactlyone > p {
+  line-height: 29px;
+  font-size: 17px;
+  width: 370px;
+  height: 310px;
+}
+
+#ynote {
+  padding-right: 35px;
+  padding-left: 34px;
+}
+
+#Crayon {
+  padding-right: 0px;
+  width: 55%;
+}
+
+.Donone {
+  padding-left: 10px;
+}
+
+.Donone > h2 {
+  line-height: 54px;
+  font-size: 28px;
+}
+
+.Donone > p {
+  line-height: 28px;
+  font-size: 17px;
+  width: 370px;
+  height: 280px;
+}
+
+#donimg {
+  padding-top: 240px;
+  height: 55%;
+  
+}
+
+#donim {
+  width: 55%;
+  padding-right: 50px;
+}
+
+.musicone {
+  padding-right: 20px;
+}
+
+.musicone > h2 {
+  line-height: 54px;
+  font-size: 28px;
+}
+
+.musicone > p {
+  line-height: 29px;
+  font-size: 17px;
+  width: 380px;
+  height: 280px;
+}
+
+#musicimg {
+  width: 55%;
+  height: auto;
+  padding-left: 40px;
+}
+
+#musicim {
+  padding-top: 290px;
+  width: auto;
+  height: 50%;
+}
+
+.Services {
+  margin-left: 30px;
+}
+
+#justimg {
+  margin-left: -1000px;
+}
+
+#nowimg {
+  margin-left: 900px;
+}
+
+.artistimg {
+  gap: 18px;
+}
+
+.theonea {
+  margin-left: -80px;
+  width: 40%;
+  height: auto;
+}
+
+.theoneb {
+  width: 40%;
+  height: auto;
+}
+
+.theonec {
+  margin-right: -80px;
+  width: 40%;
+  height: auto;
+}
+
+#rema {
+  margin-left: -109px;
+  width: auto;
+  height: auto;
+}
+
+#ayra {
+  margin-left: -100px;
+  width: auto;
+  height: auto;
+ 
+}
+
+#johnny {
+  margin-left: -40px;
+  width: auto;
+  height: auto;
+  
+}
+
+.suscribe {
+  margin-left: 0px;
+}
+
+form {
+ margin-right: 0px;
+}
+
+footer {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+}
+
+@media screen and (max-width: 1000px) {
+  .noteA {
+    margin-left: 900px;
+    margin-top: 40px;
+  }
+
+  .firsttxt {
+    margin-top: -15px;
+  }
+
+  .firsttxt > p {
+    font-size: 23px;
+    padding-top: 15px;
+  }
+
+  #learn {
+    margin-left: 5rem;
+  }
+
+  .abutton > img {
+    margin-left: 0.2rem;
+  }
+  .abutton > button {
+    margin-left: 7rem;
+  }
+
+  .topl {
+    margin-left: -5rem;
+    justify-content: space-around;
+  }
+
+  .rectangle {
+    margin-left: 90px;
+  }
+
+  #notes {
+    margin-left: 850px;
+  }
+
+  .newmid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #unote {
+    margin-left: 1.4rem;
+  }
+
+  .middle {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .exactly {
+    margin-right: 50px;
+  }
+
+  .exactlyone > h2 {
+  font-size: 28px;
+  line-height: 54px;
+  height: 54px;
+}
+
+.exactlyone > p {
+  line-height: 29px;
+  font-size: 17px;
+  width: 370px;
+  height: 310px;
+}
+
+#ynote {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#Crayon {
+  padding-right: 0px;
+  width: 50%;
+}
+
+.Donone {
+  padding-left: 10px;
+}
+
+.Donone > h2 {
+  line-height: 54px;
+  font-size: 28px;
+}
+
+.Donone > p {
+  line-height: 28px;
+  font-size: 17px;
+  width: 370px;
+  height: 280px;
+}
+
+#donimg {
+  padding-top: 240px;
+  height: 50%;
+  
+}
+
+#donim {
+  width: 50%;
+  padding-right: 50px;
+}
+
+.musicone {
+  padding-right: 20px;
+}
+
+.musicone > h2 {
+  line-height: 54px;
+  font-size: 28px;
+}
+
+.musicone > p {
+  line-height: 29px;
+  font-size: 17px;
+  width: 380px;
+  height: 280px;
+}
+
+#musicimg {
+  width: 50%;
+  height: auto;
+  padding-left: 30px;
+}
+
+#musicim {
+  padding-top: 290px;
+  width: auto;
+  height: 50%;
+}
+
+.Services {
+  margin-left: 20px;
+}
+
+#justimg {
+  margin-left: -920px;
+}
+
+#justim {
+  margin-left: 850px;
+}
+
+.actvities {
+  gap: 90px;
+}
+
+#nowimg {
+  margin-left: 900px;
+}
+
+.nowactvities {
+  gap: 90px;
+}
+
+
+.suscribe {
+  margin-left: -30px;
+
+}
+
+form {
+ gap: 14px;
+ width: 1012px;
+ height: 40px;
+ margin-right: 16px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: 40px;
+  background-color: #E1B959;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 40px;
+}
+
+.footertxt {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #212121;
+  font-family: 'Inter', sans-serif;
+}
+
+.footera > a{
+  padding: 10px;
+}
 }
