@@ -27,8 +27,9 @@ body {
 .HeadSection {
   background: url("./images/Rectangle 9218.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
   background-size: cover;
+  background-attachment: fixed;
  
 }
 
@@ -1037,3 +1038,1249 @@ footer {
 .footera > a{
   padding: 10px;
 }
+
+@media only screen and (max-width: 1115px) {
+  .noteA {
+    margin-left: 1000px;
+}
+
+.abutton > img {
+  margin-left: -7rem;
+}
+
+.abutton > button {
+  margin-left: -2rem;
+}
+
+#learn {
+  margin-left: 0rem;
+}
+
+.topl {
+  justify-content: space-around;
+  padding-top: 30px;
+
+}
+
+#notes {
+  margin-left: 850px;
+}
+
+.rectangle {
+  margin-left: 125px;
+}
+
+main {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+#unote {
+  margin-left: 2rem;
+}
+
+.mid {
+  margin-left: -5rem;
+}
+
+.exactly {
+  gap: 50px;
+  width: 1000px;
+  height: 440px;
+
+
+}
+
+#Crayon {
+  width: 35%;
+  margin-left: -30px;
+}
+
+.Donone {
+  padding-left: 20px;
+}
+
+#donim {
+  width: 50%;
+  height: auto;
+}
+
+.musicone {
+  padding-right: 30px;
+}
+
+#musicimg {
+  width: 50%;
+  height: auto;
+  padding-left: 70px;
+}
+
+.Services {
+  gap: 70px;
+  margin-left: 40px;
+}
+
+#justimg {
+  display: none;
+}
+
+#justim {
+ display: none;
+}
+
+.actvities {
+  gap: 40px;
+}
+
+.nowactvities {
+  margin-top: -40px;
+  gap: 40px;
+  }
+
+#nowimg {
+  margin-left: 10px;
+}
+
+.artistimg {
+  margin-top: 30px;
+  gap: 30px;
+  margin-right: 0px;
+  width: 1000px;
+  height: 440px;
+  
+}
+
+.artist {
+  width: 990px;
+  height: 744px;
+  gap: 70px;
+
+}
+
+.artisttxt {
+  width: 700px;
+  height: 112px;
+  margin-left: -50px;
+}
+
+.theonea {
+  width: 30%;
+  height: auto;
+  filter: drop-shadow(0px 4px 8px rgba(14, 32, 53, 0.12));
+}
+
+.theoneb {
+  width: 30%;
+  height: auto;
+  filter: drop-shadow(0px 4px 8px rgba(14, 31, 53, 0.12));
+}
+
+.theonec {
+  width: 30%;
+  height: auto;
+  filter: drop-shadow(0px 4px 8px rgba(14, 31, 53, 0.12));
+}
+
+.thedot {
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+#dotimg {
+  margin-top: 66px;
+  margin-left: 450px;
+}
+
+.suscribe {
+  margin-top: 54px;
+  margin-left: 0px;
+  margin-bottom: 160px;
+
+
+  width: 912px;
+  height: 352px;
+}
+
+.suscribetxt {
+  font-size: ;
+}
+
+form {
+ margin-right: 0px;
+ gap: 16px;
+ width: 912px;
+ height: 56px;
+ padding: 0px;
+}
+
+#subname {
+  box-sizing: border-box;
+  padding: 8px;
+  gap: 8px;
+  align-items: center;
+  border: 0.5px solid #DDDDDD;
+  border-radius: 4px;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #EEEEEE;
+  font-family: 'Open Sans', sans-serif;
+  width: 210px;
+  height: 56px;
+  margin-right: 8px;
+
+}
+
+#subemail {
+  width: 490px;
+  height: 56px;
+  padding: 7px;
+  gap: 7px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-right: 8px;
+
+
+}
+
+#subsub {
+  width: 180px;
+  height: 56px;
+  padding: 9px 20px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  
+
+}
+
+.suscribetxt {
+  width: 860px;
+  height: 216px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .noteA {
+    display: none;
+}
+
+.abutton > img {
+  margin-left: -9rem;
+}
+
+#notes {
+  margin-left: 750px;
+}
+
+.rectangle {
+  margin-left: 75px;
+}
+
+.exactly {
+  gap: 30px;
+  width: 900px;
+  height: 440px;
+
+
+}
+
+.Donone {
+  padding-left: 10px;
+}
+
+#donim {
+  width: 40%;
+  height: auto;
+}
+
+.musicone {
+  padding-right: 10px;
+}
+
+#musicimg {
+  width: 40%;
+  height: auto;
+}
+
+.Services {
+  gap: 60px;
+  margin-left: -20px;
+}
+
+.actvities {
+  width: 820px;
+  height: 560px;
+  gap: 20px;
+}
+
+.brand {
+  width: 400px;
+  height: 560px;
+}
+
+.brand > img {
+  width: 80%;
+  height: auto;
+}
+
+.sync {
+  width: 400px;
+  height: 560px;
+}
+
+.sync > img {
+  width: 80%;
+  height: auto;
+}
+
+.nowactvities {
+  width: 820px;
+  height: 560px;
+  margin-top: -40px;
+  gap: 20px;
+}
+
+.performance {
+  width: 400px;
+  height: 560px;
+}
+
+.performance > img {
+  width: 80%;
+  height: auto;
+}
+
+.creation {
+  width: 400px;
+  height: 560px;
+}
+
+.creation > img {
+  width: 80%;
+  height: auto;
+}
+
+
+#nowimg {
+  margin-left: 10px;
+}
+
+.artistimg {
+  margin-top: 30px;
+  gap: 20px;
+  margin-right: 0px;
+  width: 900px;
+  height: 440px;
+  
+}
+
+.artist {
+  width: 900px;
+  height: 744px;
+  gap: 70px;
+
+}
+
+.artisttxt {
+  width: 700px;
+  height: 112px;
+  margin-left: -50px;
+}
+
+.theonea {
+  width: 28%;
+  height: auto;
+  filter: drop-shadow(0px 4px 8px rgba(14, 32, 53, 0.12));
+}
+
+.theoneb {
+  width: 28%;
+  height: auto;
+  filter: drop-shadow(0px 4px 8px rgba(14, 31, 53, 0.12));
+}
+
+.theonec {
+  width: 28%;
+  height: auto;
+  filter: drop-shadow(0px 4px 8px rgba(14, 31, 53, 0.12));
+}
+
+.thedot {
+  margin-left: -120px;
+  margin-top: -160px;
+}
+
+#dotimg {
+  margin-top: -40px;
+  margin-left: 350px;
+}
+
+.suscribe {
+  margin-top: 24px;
+  margin-left: -30px;
+  margin-bottom: 160px;
+
+
+  width: 912px;
+  height: 352px;
+}
+
+.suscribetxt {
+  font-size: ;
+}
+
+form {
+ margin-right: 0px;
+ gap: 16px;
+ width: 912px;
+ height: 56px;
+ padding: 0px;
+}
+
+#subname {
+  box-sizing: border-box;
+  padding: 8px;
+  gap: 8px;
+  align-items: center;
+  border: 0.5px solid #DDDDDD;
+  border-radius: 4px;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #EEEEEE;
+  font-family: 'Open Sans', sans-serif;
+  width: 210px;
+  height: 56px;
+  margin-right: 8px;
+
+}
+
+#subemail {
+  width: 490px;
+  height: 56px;
+  padding: 7px;
+  gap: 7px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-right: 8px;
+
+
+}
+
+#subsub {
+  width: 180px;
+  height: 56px;
+  padding: 9px 20px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  
+
+}
+
+.suscribetxt {
+  width: 860px;
+  height: 216px;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+  .thetrend > h2 {
+  font-size: 40px;
+  padding-top: 100px;
+}
+
+.thetrend > p {
+  font-size: 17px;
+  line-height: 28px;
+  width: 650px;
+  height: 54px;
+  margin-left: 70px;
+}
+
+.thetrend > img {
+  margin-left: 670px;
+  margin-top: 186px;
+}
+
+#mnote {
+  margin-left: 640px;
+}
+
+.theli > #groupimg {
+  border-color: rgba(225, 185, 89, 1.0);
+  border-radius: 32px;
+  border: 4px solid #E1B959;
+  margin-top: -14rem;
+  width: 90%;
+  height: auto;
+  margin-left: 30px;
+}
+
+.theli > #playb {
+  margin-top: 14rem;
+  padding-left: 19.5rem;
+}
+
+.theli > ul {
+  margin-top: -24.6rem;
+  padding-left: 2.4rem;
+
+}
+
+#litxt {
+  font-size: 16px;
+  line-height: 22px;
+  padding-left: 8px;
+}
+
+#unote {
+  margin-top: 165px;
+  margin-left: -5rem;
+}
+
+
+
+
+.abutton > img {
+  margin-left: -14rem;
+}
+
+#notes {
+  margin-left: 550px;
+}
+
+.rectangle {
+  padding: 24px 32px;
+  gap: 40px;
+  width: 500px;
+  height: 100px;
+  margin-left: 190px;
+  margin-top: -80px;
+}
+
+.number {
+  font-size: 30px;
+  line-height: 46px;
+  width: 50px;
+}
+
+.word {
+  font-size: 20px;
+  line-height: 28px;
+  width: 70px;
+}
+
+.abutton > button {
+  margin-left: 45px;
+}
+
+#learn {
+  margin-left: 20rem;
+  padding: 12px 24px;
+  gap: 8px;
+  width: 240px;
+  height: 56px;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.topl {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 630px;
+  padding-top: 64px;
+
+}
+
+.abutton {
+  display: none;
+}
+
+.newmid {
+  margin-left: 5rem;
+}
+
+.exactly {
+  gap: 30px;
+  width: 780px;
+  height: 400px;
+}
+
+.exactlyone {
+  gap: 14px;
+  margin-top: 66px;
+  width: 320px;
+  height: 400px;
+}
+
+.exactlyone > h2 {
+  font-size: 28px;
+}
+
+.exactlyone > p {
+  font-size: 17px;
+  width: 320px;
+  height: 316px;
+}
+
+.Donone {
+  margin-top: 70px;
+  padding-left: 9px;
+}
+
+#donim {
+  margin-top: 30px;
+  width: 50%;
+  height: auto;
+}
+
+#donimg {
+  margin-left: -60px;
+  width: auto;
+  height: 0%;
+}
+
+.Donone > h2 {
+  font-size: 28px;
+}
+
+.Donone > p {
+  font-size: 17px;
+  width: 315px;
+  height: 304px;
+}
+
+.musicone {
+  padding-right: 10px;
+}
+
+#musicimg {
+  width: 40%;
+  height: auto;
+  padding-left: 80px;
+}
+
+.musicone > h2 {
+  font-size: 28px;
+}
+
+.musicone > p {
+  font-size: 17px;
+  width: 325px;
+  height: 336px;
+}
+
+#musicim {
+  padding-top: 290px;
+  width: auto;
+  height: 100%;
+}
+
+.Services {
+  gap: 50px;
+  margin-left: -90px;
+}
+
+.actvities {
+  width: 780px;
+  height: 560px;
+  gap: 20px;
+}
+
+.brand {
+  width: 380px;
+  height: 560px;
+}
+
+.brand > h3 {
+  color: #FCFCFC;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.brand > img {
+  width: 70%;
+  height: auto;
+}
+
+.sync {
+  width: 370px;
+  height: 560px;
+}
+
+.sync > img {
+  width: 70%;
+  height: auto;
+}
+
+.nowactvities {
+  width: 720px;
+  height: 560px;
+  margin-top: -40px;
+  gap: 20px;
+}
+
+.performance {
+  width: 390px;
+  height: 560px;
+}
+
+.performance > img {
+  width: 70%;
+  height: auto;
+}
+
+.creation {
+  width: 380px;
+  height: 560px;
+}
+
+.creation > img {
+  width: 70%;
+  height: auto;
+}
+
+
+#nowimg {
+  margin-left: 10px;
+}
+
+.artistimg {
+  margin-top: 20px;
+  gap: 20px;
+  margin-right: 0px;
+  width: 850px;
+  height: 440px;
+  
+}
+
+.artist {
+  margin-top: 10px;
+  width: 850px;
+  height: 744px;
+  gap: 70px;
+
+}
+
+.artisttxt {
+  width: 700px;
+  height: 112px;
+  margin-left: -50px;
+}
+
+.theonea {
+  width: 26%;
+  height: auto;
+  filter: drop-shadow(0px 4px 8px rgba(14, 32, 53, 0.12));
+}
+
+.theoneb {
+  width: 26%;
+  height: auto;
+  filter: drop-shadow(0px 4px 8px rgba(14, 31, 53, 0.12));
+}
+
+.theonec {
+  width: 26%;
+  height: auto;
+  filter: drop-shadow(0px 4px 8px rgba(14, 31, 53, 0.12));
+}
+
+.thedot {
+  margin-left: -180px;
+  margin-top: -180px;
+}
+
+#dotimg {
+  margin-top: -40px;
+  margin-left: 270px;
+}
+
+.suscribe {
+  margin-top: 24px;
+  margin-left: -80px;
+  margin-bottom: 160px;
+
+
+  width: 900px;
+  height: 352px;
+}
+
+#subname {
+  padding: 6px;
+  gap: 6px;
+  border: 0.2px solid #DDDDDD;
+  border-radius: 3px;
+  font-size: 12px;
+  line-height: 20px;
+  width: 190px;
+  height: 45px;
+  margin-right: 3px;
+
+}
+
+#subemail {
+  width: 320px;
+  height: 45px;
+  padding: 6px;
+  gap: 6px;
+  font-size: 12px;
+  line-height: 20px;
+  margin-right: 3px;
+
+
+}
+
+#subsub {
+  width: 170px;
+  height: 45px;
+  padding: 6px 15px;
+  font-size: 15px;
+  line-height: 27px;
+  
+
+}
+
+.suscribetxt {
+  width: 660px;
+  height: 216px;
+}
+
+form {
+  margin-top: 30px;
+ gap: 14px;
+ width: 812px;
+ height: 56px;
+ margin-right: 0px;
+ margin-left: 80px;
+
+}
+.HeadSection {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: inherit;
+
+}
+
+body{
+  overflow-x: hidden;
+}
+
+}
+
+@media only screen and (max-width: 800px) {
+
+  .firsttxt > p {
+ padding-left: 30px;
+}
+
+  .thetrend > h2 {
+  font-size: 40px;
+  padding-top: 100px;
+}
+
+.thetrend > p {
+  font-size: 17px;
+  line-height: 28px;
+  width: 650px;
+  height: 54px;
+  margin-left: 30px;
+}
+
+.thetrend > img {
+  margin-left: 670px;
+  margin-top: 186px;
+}
+
+#mnote {
+  margin-left: 640px;
+}
+
+.theli > #groupimg {
+  border-color: rgba(225, 185, 89, 1.0);
+  border-radius: 32px;
+  border: 4px solid #E1B959;
+  margin-top: -14rem;
+  width: 90%;
+  height: auto;
+  margin-left: 30px;
+}
+
+.theli > #playb {
+  margin-top: 6rem;
+  padding-left: 17.5rem;
+}
+
+.theli > ul {
+  margin-top: -21.6rem;
+  padding-left: 2.4rem;
+
+}
+
+#litxt {
+  font-size: 16px;
+  line-height: 22px;
+  padding-left: 8px;
+}
+
+#unote {
+  margin-top: 165px;
+  margin-left: -5rem;
+}
+
+
+
+
+.abutton > img {
+  margin-left: -14rem;
+}
+
+#notes {
+  margin-left: 550px;
+}
+
+.rectangle {
+  padding: 24px 32px;
+  gap: 40px;
+  width: 500px;
+  height: 100px;
+  margin-left: 130px;
+  margin-top: -80px;
+}
+
+.number {
+  font-size: 30px;
+  line-height: 46px;
+  width: 50px;
+}
+
+.word {
+  font-size: 20px;
+  line-height: 28px;
+  width: 70px;
+}
+
+.abutton > button {
+  margin-left: 45px;
+}
+
+#learn {
+  margin-left: 10rem;
+  padding: 12px 24px;
+  gap: 8px;
+  width: 240px;
+  height: 56px;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.topl {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 630px;
+  padding-top: 64px;
+
+}
+
+.abutton {
+  display: none;
+}
+
+.newmid {
+  margin-left: 5rem;
+}
+
+.exactly {
+  gap: 30px;
+  width: 780px;
+  height: 400px;
+}
+
+.exactlyone {
+  gap: 14px;
+  margin-top: 66px;
+  width: 320px;
+  height: 400px;
+}
+
+.exactlyone > h2 {
+  font-size: 28px;
+}
+
+.exactlyone > p {
+  font-size: 17px;
+  width: 320px;
+  height: 316px;
+}
+
+.Donone {
+  margin-top: 70px;
+  padding-left: 9px;
+}
+
+#donim {
+  margin-top: 30px;
+  width: 50%;
+  height: auto;
+}
+
+#donimg {
+  margin-left: -60px;
+  width: auto;
+  height: 0%;
+}
+
+.Donone > h2 {
+  font-size: 28px;
+}
+
+.Donone > p {
+  font-size: 17px;
+  width: 315px;
+  height: 304px;
+}
+
+.musicone {
+  padding-right: 10px;
+}
+
+#musicimg {
+  width: 40%;
+  height: auto;
+  padding-left: 80px;
+}
+
+.musicone > h2 {
+  font-size: 28px;
+}
+
+.musicone > p {
+  font-size: 17px;
+  width: 325px;
+  height: 336px;
+}
+
+#musicim {
+  padding-top: 290px;
+  width: auto;
+  height: 100%;
+}
+
+.Services {
+  gap: 50px;
+  margin-left: -100px;
+}
+
+.actvities {
+  width: 780px;
+  height: 560px;
+  gap: 10px;
+  margin-left: -10px;
+}
+
+.brand {
+  width: 380px;
+  height: 560px;
+  margin-left: -30px;
+}
+
+.brand > h3 {
+  color: #FCFCFC;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.brand > img {
+  width: 60%;
+  height: auto;
+}
+
+.sync {
+  width: 370px;
+  height: 560px;
+}
+
+.sync > img {
+  width: 60%;
+  height: auto;
+}
+
+.nowactvities {
+  width: 720px;
+  height: 560px;
+  margin-top: -40px;
+  gap: 10px;
+  margin-left: -40px;
+}
+
+.performance {
+  width: 390px;
+  height: 560px;
+  margin-left: -20px;
+}
+
+.performance > img {
+  width: 60%;
+  height: auto;
+}
+
+.creation {
+  width: 380px;
+  height: 560px;
+}
+
+.creation > img {
+  width: 60%;
+  height: auto;
+}
+
+
+#nowimg {
+  margin-left: -90px;
+}
+
+.artistimg {
+  margin-top: 20px;
+  gap: 20px;
+  margin-right: 0px;
+  padding-left: 100px;
+  width: 850px;
+  height: 440px;
+  
+}
+
+.artist {
+  margin-top: 10px;
+  width: 850px;
+  height: 744px;
+  gap: 70px;
+  margin-left: -100px;
+
+}
+
+.artisttxt {
+  width: 700px;
+  height: 112px;
+  margin-left: -50px;
+}
+
+.theonea {
+  width: 26%;
+  height: auto;
+  filter: drop-shadow(0px 4px 8px rgba(14, 32, 53, 0.12));
+}
+
+.theoneb {
+  width: 26%;
+  height: auto;
+  filter: drop-shadow(0px 4px 8px rgba(14, 31, 53, 0.12));
+}
+
+.theonec {
+  width: 26%;
+  height: auto;
+  filter: drop-shadow(0px 4px 8px rgba(14, 31, 53, 0.12));
+}
+
+.thedot {
+  margin-left: -10px;
+  margin-top: -180px;
+}
+
+#dotimg {
+  margin-top: -40px;
+  margin-left: 280px;
+}
+
+.suscribe {
+  margin-top: 24px;
+  margin-left: -140px;
+  margin-bottom: 160px;
+
+
+  width: 900px;
+  height: 352px;
+}
+
+#subname {
+  padding: 6px;
+  gap: 6px;
+  border: 0.2px solid #DDDDDD;
+  border-radius: 3px;
+  font-size: 12px;
+  line-height: 20px;
+  width: 190px;
+  height: 45px;
+  margin-right: 3px;
+
+}
+
+#subemail {
+  width: 320px;
+  height: 45px;
+  padding: 6px;
+  gap: 6px;
+  font-size: 12px;
+  line-height: 20px;
+  margin-right: 3px;
+
+
+}
+
+#subsub {
+  width: 170px;
+  height: 45px;
+  padding: 6px 15px;
+  font-size: 15px;
+  line-height: 27px;
+  
+
+}
+
+.suscribetxt {
+  width: 660px;
+  height: 216px;
+}
+
+form {
+  margin-top: 30px;
+ gap: 14px;
+ width: 812px;
+ height: 56px;
+ margin-right: 0px;
+ margin-left: 120px;
+
+}
+.HeadSection {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: inherit;
+
+}
+
+body{
+  overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
